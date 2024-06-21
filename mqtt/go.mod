@@ -1,4 +1,4 @@
-module github.com/safecility/go/mqtt
+module github.com/safecility/brokers/mqtt
 
 go 1.21
 

@@ -2,8 +2,8 @@ package lib
 
 import (
 	paho "github.com/eclipse/paho.mqtt.golang"
+	"github.com/safecility/brokers/mqtt/messages"
 	"github.com/safecility/go/lib/stream"
-	"github.com/safecility/go/mqtt/messages"
 )
 
 // UidTransformer allows paho UIDs to be transformed for different microservices/storage/cache implementations

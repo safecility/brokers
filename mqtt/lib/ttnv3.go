@@ -6,8 +6,8 @@ import (
 	"fmt"
 	paho "github.com/eclipse/paho.mqtt.golang"
 	"github.com/rs/zerolog/log"
+	"github.com/safecility/brokers/mqtt/messages"
 	"github.com/safecility/go/lib/stream"
-	"github.com/safecility/go/mqtt/messages"
 	"time"
 )
 

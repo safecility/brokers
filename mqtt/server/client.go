@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"fmt"
 	"github.com/rs/zerolog/log"
-	"github.com/safecility/go/mqtt/lib"
+	"github.com/safecility/brokers/mqtt/lib"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"net/url"
